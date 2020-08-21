@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "624093970157",
+    "firebase_url": "https://siza-mp3-cutter.firebaseio.com",
+    "project_id": "siza-mp3-cutter",
+    "storage_bucket": "siza-mp3-cutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624093970157:android:dfa3ecf6ab5ed7c9a496e4",
+        "android_client_info": {
+          "package_name": "com.sizamp3cutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624093970157-racn8hf0cmohtdraik82frc0fvpukale.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sizamp3cutter",
+            "certificate_hash": "66f0ea2653d0e5eb321365f3fa8fdc2bc243298b"
+          }
+        },
+        {
+          "client_id": "624093970157-s46lrb81h8kuv26veimu8ai0bo5l1qc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sizamp3cutter",
+            "certificate_hash": "23bb16527cc5445d07e36218b9ead117770d9bc8"
+          }
+        },
+        {
+          "client_id": "624093970157-5jjj6eti2f0rieefrmf1snb8uu2e9e7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqqaueJCJ60TiPo4HIzYvgI9mGb9EcThU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624093970157-5jjj6eti2f0rieefrmf1snb8uu2e9e7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

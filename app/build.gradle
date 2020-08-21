@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\Rishabh\\Documents\\keys\\sizamp3cutterupwork.jks')
+            storePassword 'nmdl12345'
+            keyAlias = 'key0'
+            keyPassword 'nmdl12345'
+        }
+    }
+    compileSdkVersion 29
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.sizamp3cutter"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 4
+        versionName "1.4"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    testCompile 'junit:junit:4.12'
+    implementation 'com.google.android.gms:play-services-ads:17.1.1'
+}
